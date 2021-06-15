@@ -1,6 +1,8 @@
-const createHttp =  (upstream: String, server: String) => `http {
+const createHttp =  (upstream: string, server: string,accessLog:string) => `http {
+    ${accessLog}
     ${upstream}
     ${server}
+    
 }`;
 
 export default createHttp;

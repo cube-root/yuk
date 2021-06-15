@@ -1,6 +1,6 @@
 # yuk
 
-Yuk is a open source tool to create reverse proxy servers and also to configure load balancing.
+Yuk is an open source tool to create reverse proxy servers and also to configure load balancing.
 <p><a href="https://hub.docker.com/r/abhijithababhijith/yuk">Docker hub</a></p>
 
 ## Why yuk ?
@@ -67,7 +67,6 @@ to the port 8080.
 - Load balancing method
 - server slow start
 - max connections
-- 
 
 ### Screenshots
 

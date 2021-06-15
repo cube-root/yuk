@@ -10,3 +10,6 @@ services:
             - '3001:3000'
             - '80:80'
             - '8080:8080'
+        environment: 
+            - DEFAULT_USER=admin
+            - DEFAULT_PASSWORD=password

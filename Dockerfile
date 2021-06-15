@@ -1,6 +1,7 @@
 FROM node:buster-slim
 # Install nginx
 RUN apt update && apt install nginx -y
+RUN service nginx start
 # Frontend
 WORKDIR /app
 COPY package.json .

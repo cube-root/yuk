@@ -36,3 +36,4 @@ yarn-error.log*
 config/
 nginx/
 NOTE.md
+log/
